@@ -1,0 +1,63 @@
+body {background: yellow;}
+
+
+#toto{
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    background: rgba(1,1,1,0.4);
+    right: 0px;
+}
+
+#aff img {
+    width: 50px;
+}
+
+#aff img:hover {
+    background-color: aqua;
+}
+
+#tete {
+    display: inline-block;
+    width: auto;
+    height: 500px;
+    background: black;
+    color: aliceblue;
+    margin-left: -20px;
+    vertical-align: top;
+}
+
+#tata {
+    display: inline-block;
+    width: 127px;
+    height: 500px;
+    margin-left: -4px;
+}
+
+#hidden{
+    height: 500px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.menu li{
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: white solid 2px;
+    margin-left: -20px;
+}
+
+.menu li:active, .menu ul li:hover { 
+    border-right: blue solid 5px;
+}
+
+.sub_nav {
+    display: none;
+    margin-left: -20px;
+}
+
+.survol:hover .sub_nav,.survol:active .sub_nav {display: block;}
